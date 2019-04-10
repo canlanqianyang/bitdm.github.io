@@ -25,8 +25,11 @@ permalink: /2019/projects/p03/midterm/
 
 ### 数据分析与可视化
 简单的统计下历史每天不同时间段内每条link上的平均旅行时间，然后做图可以看出绝大多数旅行时间处于比较低的水平，服从长尾分布。
+
 ![](https://github.com/canlanqianyang/bitdm.github.io/blob/master/2019/projects/P03/images/1.png)
+
 对travel_time做一个log的特征变换, 一般对数变换为ln(x+1), 避免x=0而出现负无穷大, 可以看出经过对数变换后, 数据的分布非常均匀, 类似正态分布, 比较适合模型来处理。
+
 ![](https://github.com/canlanqianyang/bitdm.github.io/blob/master/2019/projects/P03/images/2.png)
 
 ### 模型选取
